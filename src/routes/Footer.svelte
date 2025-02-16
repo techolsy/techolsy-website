@@ -10,7 +10,7 @@
     <a href="https://github.com/techolsy" target="_blank">
       <i class="fa-brands fa-square-github fa-xl icon"></i>
     </a>
-    <a href="www.linkedin.com/in/alexander-olsson-111b92177" target="_blank">
+    <a href="https://linkedin.com/in/alexander-olsson-111b92177" target="_blank">
       <i class="fa-brands fa-linkedin fa-xl icon"></i>
     </a>
   </div>
