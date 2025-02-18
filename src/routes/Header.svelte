@@ -1,5 +1,5 @@
 <script>
-  const site_pages = ['Home', 'About'];
+  const site_pages = ['Home', 'About', 'Homelab'];
 </script>
 
 <nav>
