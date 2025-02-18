@@ -19,7 +19,7 @@
 <p>
   <i>PVE02</i> is a custom built pc with an i312100 CPU and have 128 GB of memory, it also runs proxmox as an hypervisor.
   For storage it has a 500 GB SSD as a boot drive and a 2 TB nvme for vm storage, it also have additional 4x4 TB HDD 
-  configured in a raid5 mdraid. this server all the main services I mostly use on a day to day basis.
+  configured in a raid5 mdraid, and a Quadro P400 GPU. this server all the main services I mostly use on a day to day basis.
 </p>
 
 <h5>PBS</h5>
