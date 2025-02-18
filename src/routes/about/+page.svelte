@@ -5,7 +5,7 @@
 <h1>About Me</h1>
 
 <p>
-  Hej! I’m a Swedish systems engineer with a passion for problem-solving, efficiency, 
+  <i>Hej!</i> I’m a Swedish systems engineer with a passion for problem solving, efficiency, 
   and all things tech. By day, I design and optimize systems that keep businesses running smoothly. 
   Whether it's software architecture, automation, or troubleshooting complex issues, 
   I thrive on finding innovative solutions to technical challenges.
@@ -18,5 +18,5 @@
 </p>
 <p>
   Outside of tech and music, I enjoy exploring new ideas, collaborating with like-minded people, 
-  and continuously learning—because there’s always something new to discover.
+  and continuously learning because there’s always something new to discover.
 </p>
