@@ -1,6 +1,7 @@
 <script>
   import Networking from './Networking.svelte';
   import Servers from './Servers.svelte';
+  import Services from './Services.svelte';
 </script>
 
 <svelte:head>
@@ -12,3 +13,4 @@
 
 <Networking />
 <Servers />
+<Services />
