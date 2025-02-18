@@ -121,3 +121,9 @@
 <p>
   Pritunl is a VPN solution, I use it to be able to connect to my homelab when I am out and about and touching grass.
 </p>
+
+<h5>UniFi</h5>
+
+<p>
+  I have unifi server that I use to manage my singular access point. 
+</p>
