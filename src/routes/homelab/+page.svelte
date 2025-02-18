@@ -1,5 +1,6 @@
 <script>
   import Networking from './Networking.svelte';
+  import Servers from './Servers.svelte';
 </script>
 
 <svelte:head>
@@ -10,3 +11,4 @@
 <p>Here is my current homelab setup</p>
 
 <Networking />
+<Servers />
