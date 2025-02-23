@@ -1,3 +1,1 @@
-:root {
-  --primary: aqua;
-}
+@import "tailwindcss";
