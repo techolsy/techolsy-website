@@ -19,6 +19,8 @@
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "^6.7.2",
 		"@picocss/pico": "^2.0.6",
-		"@xyflow/svelte": "^0.1.30"
+		"@tailwindcss/vite": "^4.0.8",
+		"@xyflow/svelte": "^0.1.30",
+		"tailwindcss": "^4.0.8"
 	}
 }
