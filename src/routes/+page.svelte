@@ -1,14 +1,25 @@
+<script>
+  import { onMount } from "svelte";
+
+  let angle = 0;
+  let speed = 0.01;
+  let time = 0
+
+  function animate() {
+    time += speed;
+    angle = Math.sin(time) * 5;
+    requestAnimationFrame(animate);
+  }
+
+  onMount(() => {
+    animate();
+  });
+</script>
+
 <svelte:head>
   <title>Home</title>
 </svelte:head>
 
-<div class="center">
-  <h1>Welcome to my website!</h1>
+<div class="flex flex-grow items-center justify-center">
+  <h1 class="text-4xl" style="transform: rotate({angle}deg);">Welcome to my website!</h1>
 </div>
-
-<style>
-  .center {
-    display: flex;
-    justify-content: center;
-  }
-</style>
