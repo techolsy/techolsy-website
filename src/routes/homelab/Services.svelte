@@ -24,7 +24,7 @@
 <p>
   I have set up STEP to act like a acme server, and to serve my web servers with ssl certificates. I use lego-acme as 
   a client on my servers to requests certificates from my acme server, and I have created a script that I use that you 
-  can find <a href="https://github.com/techolsy/bash-scripts/tree/main/lego-wrapper" target="_blank">here</a>
+  can find <a href="https://github.com/techolsy/lego-wrapper" target="_blank">here</a>
 </p>
 
 <h5>ZABBIX</h5>
