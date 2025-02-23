@@ -8,9 +8,13 @@
   <title>Homelab</title>
 </svelte:head>
 
-<h1>Homelab</h1>
-<p>Here is my current homelab setup</p>
-
-<Networking />
-<Servers />
-<Services />
+<div class="container mx-auto py-5">
+  <h1 class="text-4xl">Homelab</h1>
+  <p class="text-xl">Here is my current homelab setup</p>
+  <br>
+  <Networking />
+  <br>
+  <Servers />
+  <br>
+  <Services />
+</div>
