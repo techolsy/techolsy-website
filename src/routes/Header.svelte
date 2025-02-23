@@ -1,38 +1,22 @@
 <script>
-  import '@fortawesome/fontawesome-free/css/all.min.css'
-
-  const site_pages = ['Home', 'About', 'Homelab'];
+  const sitePages = ['Home', 'About', 'Homelab'];
+  const menuClass = "text-lg no-underline text-gray-200 hover:text-blue-300 ml-3";
 </script>
-
-<nav>
-  <ul>
-    <li><strong>Techolsy</strong></li>
-    <li>
-      <a href="https://github.com/techolsy" target="_blank" aria-labelledby="github">
-        <i class="fa-brands fa-square-github fa-xl icon"></i>
-      </a>
-    </li>
-    <li>
-      <a href="https://linkedin.com/in/alexander-olsson-111b92177" target="_blank" aria-labelledby="linkedin">
-        <i class="fa-brands fa-linkedin fa-xl icon"></i>
-      </a>
-    </li>
-  </ul>
-    <ul>
-    {#each site_pages as site_page}
-      <li>
-        {#if site_page === 'Home'}
-          <a href="/" class="contrast">{site_page}</a>
-        {:else}
-          <a href="/{site_page.toLowerCase()}" class="contrast">{site_page}</a>
-        {/if}
-      </li>
-    {/each}
-  </ul>
-</nav>
-
-<style>
-  .icon {
-    color: #77767b;
-  }
-</style>
+<div class="w-full bg-gray-700">
+  <div class="container mx-auto">
+    <nav class="flex flex-col text-center sm:flex-row sm:text-left sm:justify-between py-4 sm:items-baseline w-full">
+      <div class="mb-2 sm:mb-0">
+        <a href="/" class="text-2xl no-underline text-gray-200 hover:text-blue-300">Techolsy</a>
+      </div>
+      <div>
+        {#each sitePages as sitePage}
+          {#if sitePage === 'Home'}
+            <a href="/" class="{ menuClass }">{sitePage}</a>
+          {:else}
+            <a href="/{sitePage.toLowerCase()}" class="{ menuClass }">{sitePage}</a>
+          {/if}
+        {/each}
+      </div>
+    </nav>
+  </div>
+</div>
