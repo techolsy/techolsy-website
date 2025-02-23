@@ -1,36 +1,21 @@
 <script>
   import Header from './Header.svelte';
   import Footer from './Footer.svelte';
-  import '@picocss/pico';
   import '../app.css';
 
   let { children } = $props();
 </script>
 
-<div class="app">
-  <header class="container">
+<div class="flex flex-col min-h-screen bg-gray-800 text-gray-200">
+  <header>
     <Header />
   </header>
 
-  <hr>
-
-  <main class="container">
+  <main class="flex flex-grow">
     {@render children()}
   </main>
 
-  <footer class="container sticky-footer">
+  <footer class="flex">
     <Footer />
   </footer>
 </div>
-
-<style>
-  .app {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-
-  .sticky-footer {
-    margin-top: auto;
-  }
-</style>
