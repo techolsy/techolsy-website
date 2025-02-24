@@ -2,8 +2,8 @@
   import { page } from "$app/stores";
 
   const sitePages = ['Home', 'About', 'Homelab'];
-  const menuClass = "text-lg no-underline hover:text-blue-300 ml-3";
-  const menuActive = "text-lg no-underline text-blue-500 hover:text-blue-300 ml-3";
+  const menuClass = "text-lg no-underline hover:text-blue-500 ml-3";
+  const menuActive = "text-lg no-underline text-blue-400 hover:text-blue-500 ml-3";
 </script>
 <div class="w-full bg-gray-700">
   <div class="container mx-auto">
