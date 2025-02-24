@@ -6,6 +6,7 @@
 
 <svelte:head>
   <title>Homelab</title>
+  <meta name="Techolsy homelab page" content="Homlab page to read about my personal homelab"/>
 </svelte:head>
 
 <div class="container mx-auto py-5">
