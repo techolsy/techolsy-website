@@ -18,6 +18,7 @@
 
 <svelte:head>
   <title>Home</title>
+  <meta name="Techolsy Home" content="Landing page for techolsy website"/>
 </svelte:head>
 
 <div class="flex flex-grow items-center justify-center">
