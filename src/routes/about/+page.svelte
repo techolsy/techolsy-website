@@ -4,6 +4,7 @@
 
 <svelte:head>
   <title>About</title>
+  <meta name="Techolsy about me page" content="About me section"/>
 </svelte:head>
 
 <div class="container mx-auto py-5">
