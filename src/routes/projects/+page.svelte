@@ -1,5 +1,5 @@
 <script>
-  import Card from '$lib/components/Card.svelte';
+  import Gitcard from '$lib/components/Gitcard.svelte';
 </script>
 
 <svelte:head>
@@ -9,23 +9,28 @@
 <div class="container flex flex-col mx-auto py-5">
   <h1 class="text-4xl text-center">My Projects</h1>
 
-  <div class="flex p-4 mx-auto">
-    <Card title="Gitsync" link="https://github.com/techolsy/gitsync">
-      <p>Gitsync is a project written in Go to sync server configuration from a git repository</p>
-    </Card>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 py-4 mx-auto">
+    <Gitcard
+      name="Techolsy Website" language="Svelte"
+      description="This website, that I build to learn more about svelte"
+      url="https://github.com/techolsy/techolsy-website">
+    </Gitcard>
+    <Gitcard
+      name="dns-api" language="TypeScript"
+      description="dns-api is and api server for dnsmasq to update the hosts file"
+      url="https://github.com/techolsy/dns-api">
+    </Gitcard>
 
-    <Card title="Lego-wrapper" link="https://github.com/techolsy/lego-wrapper">
-      <p>
-        Lego-wrapper is shell script wrapper written in bash for the lego acme client, that is used to 
-        obtain and renew certificate from an acme server.
-      </p>
-    </Card>
+    <Gitcard
+      name="Gitsync" language="Go"
+      description="Gitsync is a server configuration tool to sync config from git"
+      url="https://github.com/techolsy/gitsync">
+    </Gitcard>
 
-    <Card title="DNS-API" link="https://github.com/techolsy/dns-api">
-      <p>
-        DNS-API is and api written in typescript using deno and hono, it is used to updated /etc/hosts used
-        by dnsmasq
-      </p>
-    </Card>
+    <Gitcard
+      name="Lego-wrapper" language="Bash"
+      description="Lego-wrapper is a wrapper for the lego acme client"
+      url="https://github.com/techolsy/lego-wrapper">
+    </Gitcard>
   </div>
 </div>
