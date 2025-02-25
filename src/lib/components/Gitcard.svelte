@@ -26,7 +26,7 @@
     </span>
   </div>
 
-  <a href={url} target="_blank" class="mt-4 block text-center bg-blue-500 text-white text-sm font-semibold py-2 rounded-lg hover:bg-blue-700 transition">
+  <a href={url} target="_blank" class="mt-4 block text-center bg-blue-500 text-white text-sm font-semibold py-2 rounded-lg hover:bg-blue-600 transition">
     View on GitHub
   </a>
 </div>
