@@ -11,31 +11,37 @@
   const nodes = writable([
     {
       id: '1', 
+      type: 'customNode',
       position: { x: 350, y: 50 },
       data: { label: 'netgate SG-1100' },
     },
     {
       id: '2',
+      type: 'customNode',
       position: { x: 350, y: 150},
       data: { label: 'MokerLink' },
     },
     {
       id: '3',
+      type: 'customNode',
       position: { x: 650, y: 300},
       data: { label: 'UniFi AC Lite'}
     },
     {
       id: '4',
+      type: 'customNode',
       position: { x: 450, y: 300},
       data: { label: 'PVE01'}
     },
     {
       id: '5',
+      type: 'customNode',
       position: { x: 250, y: 300},
       data: { label: 'PVE02'}
     },
     {
       id: '6',
+      type: 'customNode',
       position: { x: 50, y: 300},
       data: { label: 'PBS'}
     },
@@ -92,7 +98,9 @@
 <div class="py-3">
   <Accordion title="Network Diagram">
     <div class="h-[400px]">
-      <SvelteFlow {nodes} {edges} fitView />
+      <SvelteFlow {nodes} {edges} {nodeTypes} fitView>
+        <Background bgColor="oklch(0.278 0.033 256.848)"/>
+      </SvelteFlow>
     </div>
   </Accordion>
 </div>
