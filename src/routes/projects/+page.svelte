@@ -32,5 +32,11 @@
       description="Lego-wrapper is a wrapper for the lego acme client"
       url="https://github.com/techolsy/lego-wrapper">
     </Gitcard>
+
+    <Gitcard
+      name="encoder" language="TypeScript"
+      description="ffmpeg wrapper to encode to hevc using vaapi"
+      url="https://github.com/techolsy/encoder">
+    </Gitcard>
   </div>
 </div>
