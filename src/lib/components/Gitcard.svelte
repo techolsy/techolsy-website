@@ -12,6 +12,7 @@
     Go: "bg-blue-600",
     Bash: "bg-green-700",
     Svelte: "bg-[#ff3e00]",
+    Ansible: "bg-red-600",
     default: "bg-gray-500"
   };
 </script>
