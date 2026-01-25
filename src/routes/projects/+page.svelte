@@ -15,6 +15,13 @@
       description="This website, that I build to learn more about svelte"
       url="https://github.com/techolsy/techolsy-website">
     </Gitcard>
+
+    <Gitcard
+      name="Ansible" language="Ansible"
+      description="This is my persoanl ansible playbooks that I use for my homelab"
+      url="https://github.com/techolsy/ansible">
+    </Gitcard>
+
     <Gitcard
       name="dns-api" language="TypeScript"
       description="dns-api is and api server for dnsmasq to update the hosts file"
