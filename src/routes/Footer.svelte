@@ -7,7 +7,7 @@
 <div class="flex w-full bg-gray-950">
   <div class="flex justify-between container mx-auto py-4">
     <div class="flex items-center justify-center">
-      <p class="text-lg text-gray-400">&copy Techolsy 2026</p>
+      <p class="text-lg text-gray-400">&copy 2025-2026 Techolsy.eu</p>
     </div>
     <div class="flex">
       <a href="mailto:alexander@techolsy.eu">
