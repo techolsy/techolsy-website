@@ -18,7 +18,7 @@
 
     <Gitcard
       name="Ansible" language="Ansible"
-      description="This is my persoanl ansible playbooks that I use for my homelab"
+      description="This is my personal ansible playbooks that I use for my homelab"
       url="https://github.com/techolsy/ansible">
     </Gitcard>
 
