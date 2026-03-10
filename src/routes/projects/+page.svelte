@@ -23,6 +23,12 @@
     </Gitcard>
 
     <Gitcard
+      name="integration" language="Ansible"
+      description="Personal ansible modules that I use in my playbooks"
+      url="https://github.com/techolsy/integration">
+    </Gitcard>
+
+    <Gitcard
       name="dns-api" language="TypeScript"
       description="dns-api is and api server for dnsmasq to update the hosts file"
       url="https://github.com/techolsy/dns-api">
