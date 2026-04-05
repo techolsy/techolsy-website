@@ -23,9 +23,9 @@
     </Gitcard>
 
     <Gitcard
-      name="integration" language="Ansible"
+      name="exmod" language="Ansible"
       description="Personal ansible modules that I use in my playbooks"
-      url="https://github.com/techolsy/integration">
+      url="https://github.com/techolsy/exmod">
     </Gitcard>
 
     <Gitcard
