@@ -51,5 +51,11 @@
       description="ffmpeg wrapper to encode to hevc using vaapi"
       url="https://github.com/techolsy/encoder">
     </Gitcard>
+
+    <Gitcard
+      name="ipset-update" language="Go"
+      description="ipset-update is a tool to dynamically update ipset"
+      url="https://github.com/techolsy/ipset-update">
+    </Gitcard>
   </div>
 </div>
